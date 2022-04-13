@@ -1,0 +1,79 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* box trasparente */
+.transbox{
+  padding: 70px 50px 70px 50px;
+  width: 58%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header, nav{
+  text-align: center;
+}
+
+header > img{
+  width: 250px;
+}
+
+header > h1{
+  color: #37eb34;
+}
+
+nav{
+  background-color: #37eb34;
+  padding: 10px;
+}
+
+main{
+  text-align: left;
+}
+
+main > div{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.monopattino{
+  color: white;
+}
+
+strong{
+  font-size: 20px;
+}
+
+.via:before{
+  content: '\21A6';
+}
+
+/* stato batterie */
+hr{
+  height: 20px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+#quasi-scarico{
+  width: 300px;
+  border-color: #ebc034;
+  background-color: #ebc034;
+}
+
+#carico{
+  width: 500px;
+  border-color: #2bb828;
+  background-color: #2bb828;
+}
+
+#scarico{
+  width: 100px;
+  border-color: #ab1d1d;
+  background-color: #ab1d1d;
+}
